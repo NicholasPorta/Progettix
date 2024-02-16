@@ -1,0 +1,221 @@
+/* Reset CSS */
+html, body, h1, h2, h3, p, ul, li, header, nav, main, section, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Intestazione */
+header {
+    background-color: #07612a;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centra il contenuto */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px; /* Aggiunge spazio sotto l'intestazione */
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 20px; /* Aggiunge spazio sopra il menu di navigazione */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenuto principale */
+main {
+    margin: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Aggiunge spazio sotto ogni sezione */
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center; /* Centra il contenuto */
+    background-color:goldenrod
+}
+
+p {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center; /* Centra il contenuto */
+    background-color:goldenrod
+}
+
+/* Pulsanti */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+button.home:hover,
+button.prenotazione:hover {
+    background-color: #222;
+}
+
+
+
+
+
+
+
+
+/* Reset CSS */
+html, body, h1, h2, h3, p, ul, li, header, footer, section, form, input, label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #07612a;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1, footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section.prenotazione {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #0a0a0a;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #222;
+}
+
+/* Stili per i pulsanti */
+button.home,
+button.prenotazione {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Aggiunge spazio tra i pulsanti */
+    background-color: #000;
+    color: #fff;
+}
+
+button.home:hover,
+button.prenotazione:hover {
+    background-color: #222;
+}
+
+
+
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #07612a;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #0f0f0f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    text-align: center; /* Centra il contenuto */
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+a:hover {
+    color: #b30000;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenota al Ristorante Porta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Intestazione -->
+    <header>
+        <h1>Prenota al Ristorante Porta</h1>
+		<button class="home"><a href="index.html">Home</a></button>
+        <button class="prenotazione"><a href="creaPrenotazione.html">Prenotazione</a></button>
+    </header>
+
+    <!-- Form per la prenotazione -->
+    <section class="prenotazione">
+        <h2>Inserisci i tuoi dati per la prenotazione</h2>
+        <form method="post" action="CreaPrenotazione.do">
+            <div class="campo">
+                <label for="nomeCognome">Nome e cognome:</label>
+                <input type="text" id="nomeCognome" name="nomeCognome" required>
+            </div>
+            <div class="campo">
+                <label for="recapitoTelefonico">Recapito Telefonico:</label>
+                <input type="text" id="recapitoTelefonico" name="recapitoTelefonico" required>
+            </div>
+            <div class="campo">
+                <label for="numeroPersone">Numero di persone:</label>
+                <input type="number" id="numeroPersone" name="numeroPersone" required>
+            </div>
+            <div class="campo">
+                <input type="submit" value="Prenota">
+            </div>
+        </form>
+    </section>
+
+    <!-- Link per tornare alla home -->
+    <footer>
+        <img src="img/prenotazionetavoli.jpg" alt="Immagine di prenotazione" width="1880" height="500"> 
+        <a href="./index.html">Torna alla home</a>
+    </footer>
+
+</body>
+</html>
